@@ -159,13 +159,13 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #797979; /*tb меняю цвет при наведении на ссылку (номер телефона)*/
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #117964;
+  color: #797979; /*tb меняю цвет при наведении на ссылку (номер телефона)*/
   text-decoration: underline;
 }
 
@@ -9689,7 +9689,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #c0c0c0; /*tb изменила цвет при наведении курсора на пункты главного меню*/
+    background: #797979; /*tb изменила цвет при наведении курсора на пункты главного меню*/
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -9933,4 +9933,17 @@ form .row:first-child .floating-label-form-group {
   .impressum-grey {
     font-size: 1.1rem;
   }
+}
+
+.menu-color { /*tb меняем цвет кнопки меню в мобильной версии на темно-серый*/
+  background-color: #797979 !important;
+}
+
+a.global {
+  color: #797979;
+  text-decoration: underline;
+}
+
+a.global:hover {
+  color: #fff;
 }
